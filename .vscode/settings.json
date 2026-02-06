@@ -1,12 +1,10 @@
 {
+    "debug.showInStatusBar": "always",
     "go.useLanguageServer": true,
     "go.toolsEnvVars": {
         "GOPATH": "/go"
     },
     "go.gopath": "/go",
-    "go.alternateTools": {
-        "go": "docker-compose exec app go"
-    },
     "go.languageServerFlags": [
         "-rpc.trace",
         "-logfile=/tmp/gopls.log"
